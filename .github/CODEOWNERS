@@ -1,0 +1,33 @@
+# CODEOWNERS file for file-client-668
+# Global owners - will be requested for all PRs
+* @Armor-test/team-research @Armor-test/dept-reporting @Armor-test/squad-database
+
+# Directory ownership
+/api/ @Armor-test/dept-data @Armor-test/squad-apps
+/pkg/ @Armor-test/team-governance @Armor-test/squad-ml @Armor-test/dept-security
+/auth/ @Armor-test/grp-reporting @Armor-test/squad-ux @Armor-test/team-notifications
+/test/ @Armor-test/team-governance @Armor-test/dept-notifications
+/internal/ @Armor-test/grp-api @Armor-test/team-core @Armor-test/squad-tooling
+/public/ @Armor-test/team-research @Armor-test/dept-reliability
+/src/ @Armor-test/squad-database @Armor-test/squad-apps @Armor-test/grp-integration
+/tools/ @Armor-test/dept-api @Armor-test/squad-api @Armor-test/grp-reporting
+/views/ @Armor-test/squad-database @Armor-test/squad-performance
+/shared/ @Armor-test/grp-ui @Armor-test/unit-devops
+
+# File type ownership
+*.ini @Armor-test/dept-identity @Armor-test/unit-devops
+*.md @Armor-test/dept-notifications @Armor-test/squad-cloud @Armor-test/squad-search
+*.tf @Armor-test/dept-logging @Armor-test/squad-ux
+*.sh @Armor-test/dept-identity @Armor-test/team-notifications @Armor-test/unit-cloud
+*.yml @Armor-test/squad-ml @Armor-test/dept-billing
+*.scala @Armor-test/team-governance @Armor-test/dept-release @Armor-test/team-research
+*.py @Armor-test/dept-billing @Armor-test/squad-search
+*.kt @Armor-test/unit-test @Armor-test/squad-mobile
+*.rb @Armor-test/team-security @Armor-test/team-logging @Armor-test/grp-reporting
+*.toml @Armor-test/dept-reliability @Armor-test/squad-reporting
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
